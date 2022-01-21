@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    margin:10px;
+}
+
+#grid-form{
+    margin:10px;
+}
+#grid-container {
+    border: 5px solid black;
+    display: grid;
+    height: 500px;
+    width: 500px;
+}
+  
+.square{
+    border:1px solid black;
+}
+
+.slidecontainer{
+    width: 100px;
+}
+
+.slider{
+    width:100%;
+    height: 50px;
+    opacity: 0.7;
+}
+
+.slider:hover{
+    opacity: 1;
+}
+
+#red-slider{
+    margin-top: 10px;
+}
+
+#color-display{
+    margin:10px;
+    border:1px solid black;
+    border-radius: 50%;
+    height:75px;
+    width:75px;
+}
